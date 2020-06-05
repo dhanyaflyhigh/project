@@ -2,10 +2,10 @@
 
 struct student 
 {
-  int rollno;
-  char name[20];
+//  int rollno;
+ // char name[20];
   double total;
-  int age;
+  //int age;
 };
 
 int main() {
@@ -15,5 +15,6 @@ int main() {
    sarr[i].total=rand()%100;  //scanf("%d",&sarr[i].total);
  for(int i=0;i<10;i++)
    sum+=sarr[i].total;
+  printf("%d",sum);
   return 0;
 }
