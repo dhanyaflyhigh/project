@@ -1,0 +1,61 @@
+=== Simulation (Elapsed: 3 sec) ===
+    Error:Invalid setting in 'PID_Controller/Gain' for parameter 'Gain'.
+    Caused by:
+        Error evaluating parameter 'Gain' in 'PID_Controller/Gain'
+            Unrecognized function or variable 'Kp'.
+                Variable 'Kp' does not exist.
+    Error:Invalid setting in 'PID_Controller/Gain1' for parameter 'Gain'.
+    Caused by:
+        Error evaluating parameter 'Gain' in 'PID_Controller/Gain1'
+            Unrecognized function or variable 'Ts'.
+                Variable 'Ts' does not exist.
+    Error:Invalid setting in 'PID_Controller/Gain2' for parameter 'Gain'.
+    Caused by:
+        Error evaluating parameter 'Gain' in 'PID_Controller/Gain2'
+            Unrecognized function or variable 'Ki'.
+                Variable 'Ki' does not exist.
+    Error:Invalid setting in 'PID_Controller/Gain3' for parameter 'Gain'.
+    Caused by:
+        Error evaluating parameter 'Gain' in 'PID_Controller/Gain3'
+            Unrecognized function or variable 'Ts'.
+                Variable 'Ts' does not exist.
+    Error:Invalid setting in 'PID_Controller/Gain4' for parameter 'Gain'.
+    Caused by:
+        Error evaluating parameter 'Gain' in 'PID_Controller/Gain4'
+            Unrecognized function or variable 'Kd'.
+                Variable 'Kd' does not exist.
+=== Simulation (Elapsed: 3 sec) ===
+    Warning:Unable to write to Simulink cache file 'C:\PID_Controller.slxc' because you do not have write permission for the file.
+=== Build (Elapsed: 50 sec) ===
+    ### Starting build procedure for: PID_Controller
+    ### Generating code and artifacts to 'Model specific' folder structure
+    ### Generating code into build folder: C:\PID_Controller_ert_rtw
+    ### Invoking Target Language Compiler on PID_Controller.rtw
+    ### Using System Target File: C:\Program Files\MATLAB\R2021b\rtw\c\ert\ert.tlc
+            ### Loading TLC function libraries
+    ### Generating TLC interface API for custom data
+    ### Initial pass through model to cache user defined code
+    .
+    ### Caching model source code
+    ### Writing header file PID_Controller_types.h
+    ### Writing header file PID_Controller.h
+    ### Writing header file rtwtypes.h
+    .
+    ### Writing source file PID_Controller.c
+    ### Writing header file PID_Controller_private.h
+    ### Writing source file ert_main.c
+    ### TLC code generation complete.
+    ### Creating HTML report file index.html
+    ### Saving binary information cache.
+    ### Using toolchain: LCC-win64 v2.4.1 | gmake (64-bit Windows)
+    ### Creating 'C:\PID_Controller_ert_rtw\PID_Controller.mk' ...
+    ### Successful completion of code generation for: PID_Controller
+    Top model targets built:
+    
+    Model           Action          Rebuild Reason                                    
+    ==================================================================================
+    PID_Controller  Code generated  Code generation information file does not exist.  
+    
+    1 of 1 models built (0 models already up to date)
+    Build duration: 0h 0m 46.697s
+    Error:Unable to write to Simulink cache file 'C:\PID_Controller.slxc' because you do not have write permission for the file.
