@@ -8,7 +8,7 @@ int main()
                                {4,66,9}
                            };
  
-    printf("Original array: \n\n");
+    printf("Original array hello: \n\n");
  
     for(i = 0; i < 2; i++)
     {
